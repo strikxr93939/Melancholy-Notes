@@ -1,0 +1,86 @@
+# ---------------------------------------------
+# 🧠 Melancholy Notes - Git Ignore (C# / WPF)
+# ---------------------------------------------
+
+# Visual Studio временные папки
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Папки сборки
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+[Aa]rtifacts/
+[Bb]uild/
+
+# Временные базы данных SQLite
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Конфигурации среды
+*.log
+*.tlog
+*.cache
+*.pdb
+*.pidb
+*.tmp
+*.vsidx
+*.dbmdl
+*.opendb
+
+# Папки автогенерации
+Generated Files/
+TestResults/
+.ipch/
+*.iobj
+*.ipdb
+
+# Папки системы и IDE
+_ReSharper*/
+*.DotSettings.user
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunchsnapshot
+*.nupkg
+
+# Папки публикации
+publish/
+dist/
+out/
+wwwroot/
+
+# Пользовательские настройки и пакеты
+*.config
+*.local.json
+packages/
+.nuget/
+*.DS_Store
+
+# Секретные данные
+secrets.json
+.env
+.env.local
+
+# Кэш и логи
+*.log
+logs/
+temp/
+
+# База данных проекта
+melancholy.db
+
+# ---------------------------------------------
+# ✅ Разрешённые папки (исходный код и ресурсы)
+# ---------------------------------------------
+!MelancholyNotes/
+!assets/
+!README.md
+!LICENSE
